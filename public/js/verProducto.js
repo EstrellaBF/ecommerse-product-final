@@ -91,7 +91,7 @@ $(document).ready(function() {
   }
   
 
-  /* $(".quantity").each(function() {
+  $(".quantity").each(function() {
     const spinner = $(this);
     const input = spinner.find('input[type="number"]');
     const btnUp = spinner.find(".quantity-up");
@@ -122,7 +122,7 @@ $(document).ready(function() {
       spinner.find("input").trigger("change");
     });
   });
- */
+
   // Evento para guardar la cantidad de productos seleccionados en el local storage
   // y mostrando en el carrito
   $(document).on("click", "#add-cart", function() {
